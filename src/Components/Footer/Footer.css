@@ -81,4 +81,13 @@
     .footer-subscribe{
         padding: 10px;
     }
+    .footer-email-input input{
+        width: 100%;
+    }
+    .footer-top-right{
+        gap: 15px;
+    }
+    .footer-subscribe {
+        padding: 10px 16px;
+    }
 }
