@@ -72,12 +72,12 @@
         font-weight: 600;
     }
     .mywork-title img{
-        width: 130px;
+        width: 120px;
         margin-right: -20px;
     }
     .mywork-container{
         grid-template-columns: 1fr;
-        gap: 30px;
+        
     }
     .mywork-container img{
         width: 100%;
