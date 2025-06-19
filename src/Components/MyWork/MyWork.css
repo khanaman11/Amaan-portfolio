@@ -62,8 +62,8 @@
 /* responsive style start here */
 @media(max-width:768px){
     .mywork{
-        gap: 50px;
-        margin: 50px 70px;
+        /* gap: 50px; */
+        margin: 24px;
         align-items: start;
     }
     .mywork-title h3{
@@ -73,7 +73,7 @@
     }
     .mywork-title img{
         width: 120px;
-        margin-right: -20px;
+        /* margin-right: -20px; */
     }
     .mywork-container{
         grid-template-columns: 1fr;
