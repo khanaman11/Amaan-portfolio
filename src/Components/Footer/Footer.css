@@ -74,4 +74,7 @@
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }
+    .footer-email-input{
+        width: 250px;
+    }
 }
