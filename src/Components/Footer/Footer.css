@@ -75,6 +75,10 @@
         margin-bottom: 50px;
     }
     .footer-email-input{
-        width: 250px;
+        width: 220px;
+        padding: 10px 16px;
+    }
+    .footer-subscribe{
+        padding: 10px;
     }
 }
