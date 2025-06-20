@@ -68,7 +68,7 @@ h2{
 /* Responsive style start here */
  @media(max-width:768px){
     .hero img{
-        margin-top: 120px;
+        margin-top: 80px;
         width: 260px;
         height: 260px;
     }
