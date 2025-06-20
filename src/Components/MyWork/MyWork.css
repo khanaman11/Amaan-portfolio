@@ -1,4 +1,4 @@
-.mywork{
+.mywork {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,43 +6,51 @@
     gap: 80px;
     margin: 80px 120px;
 }
-.mywork-title{
+
+.mywork-title {
     position: relative;
 }
-.mywork-title h3{
+
+.mywork-title h3 {
     font-size: 60px;
     font-weight: 600;
     padding: 0px 30px;
 }
-.mywork-title img{
+
+.mywork-title img {
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
-.mywork-container{
+
+.mywork-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
 }
-.work-img-container{
+
+.work-img-container {
     box-sizing: border-box;
     width: 350px;
     transition: 0.3s;
     cursor: pointer;
 }
-.work-img-container img{
+
+.work-img-container img {
     width: 100%;
     height: 225px;
     border-radius: 10px;
 }
-.work-img-container img:hover{
+
+.work-img-container img:hover {
     transform: scale(1.10);
     border: 4px solid #ff00ff;
     border-radius: 10px;
     transition: 0.3s;
 }
-.mywork-showmore{
+
+.mywork-showmore {
     display: flex;
     gap: 15px;
     border-radius: 50px;
@@ -54,73 +62,82 @@
     transition: 0.6s;
     cursor: pointer;
 }
-.mywork-showmore:hover{
-  gap: 30px;
-  transition: 0.6s;
-  border: 2px solid #ff00ff;  
-  color: #DA7C25;
+
+.mywork-showmore:hover {
+    gap: 30px;
+    transition: 0.6s;
+    border: 2px solid #ff00ff;
+    color: #DA7C25;
 }
+
 .work-btn-cnt {
-  display: flex;
-  gap: 10px;
-  margin-top: 10px;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .work-btn-cnt a {
-  padding: 10px 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
 }
 
 .live-btn {
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
-  width: 40%;
-  text-align: center;
+    background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    width: 40%;
+    text-align: center;
 }
 
 .github {
-  background: transparent;
-  border: 2px solid #fff;
-  width: 40%;
+    background: transparent;
+    border: 2px solid #fff;
+    width: 40%;
 }
 
 .github:hover {
-  color: #DA7C25;
-  border-color: #B923E1;
+    color: #DA7C25;
+    border-color: #B923E1;
 }
 
 
 
 /* responsive style start here */
-@media(max-width:768px){
-    .mywork{
+@media(max-width:768px) {
+    .mywork {
         /* gap: 50px; */
         margin: 24px;
         align-items: start;
     }
-    .mywork-title h3{
+
+    .mywork-title h3 {
         padding: 0;
         font-size: 50px;
         font-weight: 600;
     }
-    .mywork-title img{
+
+    .mywork-title img {
         width: 120px;
         /* margin-right: -20px; */
     }
-    .mywork-container{
+
+    .mywork-container {
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 60px;
-        
+        gap: 100px;
+
+
     }
-    .mywork-container img{
+
+    .mywork-container img {
         width: 100%;
         height: 100%;
     }
-    .mywork-showmore{
+
+    .mywork-showmore {
         padding: 20px 40px;
         font-size: 18px;
         margin: 50px auto;
