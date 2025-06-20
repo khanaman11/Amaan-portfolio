@@ -33,6 +33,8 @@
 }
 .work-img-container img{
     width: 100%;
+    height: 225px;
+    border-radius: 10px;
 }
 .work-img-container img:hover{
     transform: scale(1.10);
@@ -58,6 +60,40 @@
   border: 2px solid #ff00ff;  
   color: #DA7C25;
 }
+.work-btn-cnt {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work-btn-cnt a {
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.live-btn {
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  width: 40%;
+  text-align: center;
+}
+
+.github {
+  background: transparent;
+  border: 2px solid #fff;
+  width: 40%;
+}
+
+.github:hover {
+  color: #DA7C25;
+  border-color: #B923E1;
+}
+
+
 
 /* responsive style start here */
 @media(max-width:768px){

@@ -12,6 +12,8 @@
 .footer-top-left p{
     font-size: 18px;
     max-width: 400px;
+    margin-top: 16px;
+
 }
 .footer-top-right{
     display: flex;
