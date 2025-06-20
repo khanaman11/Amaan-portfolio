@@ -6,10 +6,10 @@
 }
 
 .hero img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 h2{
     text-align: center;
@@ -48,13 +48,14 @@ h2{
     border: 0;
 }
 .hero-resume{
-    padding: 16px 30px;
+    padding: 14px 30px;
     border-radius: 50px;
     background: transparent;
     font-size: 20px;
     cursor: pointer;
     border: 2px solid white;
     color: #fff;
+    text-decoration: none;
 }
 .hero-connect:hover{
      border: 2px solid white;
