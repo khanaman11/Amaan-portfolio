@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./MyWork.css"
 import theme_pattern from "../../assets/theme_pattern.svg"
 import mywork_data from '../../assets/mywork_data'
@@ -6,6 +6,10 @@ import arrow_icon from "../../assets/arrow_icon.svg"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const MyWork = () => {
+    const [showAll, setShowAll] = useState(false); // state for show more/less
+
+    // kitne show karne hain
+    const visibleProjects = showAll ? mywork_data : mywork_data.slice(0, 6);
     return (
         <div className='mywork' id='work'>
             <div className="mywork-title">
@@ -14,7 +18,7 @@ const MyWork = () => {
             </div>
             <div className="mywork-container">
                 {
-                    mywork_data.map((work, index) => {
+                    visibleProjects.map((work, index) => {
                         return <div key={index} className='work-img-container'>
                             <img src={work.w_img} alt='work-img' />
                             <div className="work-btn-cnt">
@@ -29,8 +33,8 @@ const MyWork = () => {
                     })
                 }
             </div>
-            <div className="mywork-showmore">
-                <p>Show More</p>
+            <div className="mywork-showmore" onClick={() => setShowAll(!showAll)}>
+                <p>{showAll ? "Show Less" : "Show More"}</p>
                 <img src={arrow_icon} alt="" />
             </div>
         </div>

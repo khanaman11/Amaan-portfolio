@@ -46,6 +46,7 @@
      background: linear-gradient(267deg , #DA7C25  0.36% , #B923E1  102.06%);
      cursor: pointer;
      transition: 0.3s;
+     border: none;
 }
 .footer-bottom{
     display: flex;
