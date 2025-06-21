@@ -23,8 +23,8 @@
 .footer-email-input{
     display: flex;
     gap: 30px;
-    padding: 18px 30px;
-    border-radius: 50px;
+    padding: 18px;
+    border-radius: 10px;
     background: #32323B;
 
 }
@@ -78,7 +78,7 @@
         margin-bottom: 50px;
     }
     .footer-email-input{
-        width: 220px;
+        width: 300px;
         padding: 10px 16px;
     }
     .footer-subscribe{
