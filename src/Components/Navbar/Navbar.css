@@ -67,6 +67,8 @@
         display: block;
         position: fixed;
         right: 30px;
+        position: sticky;
+        top: 0;
     }
     .nav-mob-close{
         display: block;
@@ -74,6 +76,8 @@
         top: 30px;
         left: 290px;
         width: 30px;
+        position: sticky;
+        top: 0;
     }
     .nav-menu{
         position: fixed;
